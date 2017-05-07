@@ -17,10 +17,10 @@ ExampleCheckBox::ExampleCheckBox(int x, int y, int sx, int sy,int szam)
 
 void ExampleCheckBox::draw() const
 {
-    gout << move_to(_x, _y) << color(255,255,255) << box(_size_x, _size_y);
+    gout << move_to(_x, _y) << color(255,255,255) << box(_size_x+2, _size_y);
     gout << move_to(_x+2, _y+2) << color(0,0,0) << box(_size_x-2, _size_y-4);
     gout << color(255,255,255);
-    gout << move_to(_x+8, _y+20) << text(_szam)<<refresh;
+    gout << move_to(_x+5, _y+5) << text(_szam)<<refresh;
 }
 
 void ExampleCheckBox::handle(event ev)
@@ -28,11 +28,11 @@ void ExampleCheckBox::handle(event ev)
     gin.timer(500);
     if (ev.type==ev_key && ev.keycode>=1 && ev.keycode<=9)
     {
-        _szam=ev.keycode;
+        _szam=4;
     }
-    if(ev.type==ev_key && ev.keycode==key_backspace )
+    if(ev.type==ev_key && ev.keycode==key_backspace)
     {
-        _szam.
+        _szam=NULL;
     }
     if(ev.type==ev_timer)
     {
