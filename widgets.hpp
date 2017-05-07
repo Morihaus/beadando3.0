@@ -11,7 +11,7 @@ class Widget
 protected:
     int _x, _y, _size_x, _size_y, _szam;
 public:
-    Widget(int x, int y, int sx, int sy, int szam);
+    Widget(int x, int y, int sx, int sy, char szam);
     virtual bool is_selected(int mouse_x, int mouse_y) const;
     virtual void draw() const;
     virtual void handle(genv::event ev);

@@ -3,7 +3,7 @@
 using namespace genv;
 using namespace std;
 
-Widget::Widget(int x, int y, int sx, int sy,int szam)
+Widget::Widget(int x, int y, int sx, int sy,char szam)
 {
     _x=x;
     _y=y;

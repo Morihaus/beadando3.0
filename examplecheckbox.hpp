@@ -12,7 +12,7 @@ class ExampleCheckBox : public Widget
 protected:
     int ido1,ido2;
 public:
-    ExampleCheckBox(int x, int y, int sx, int sy, int szam);
+    ExampleCheckBox(int x, int y, int sx, int sy, char szam);
     virtual void draw() const;
     virtual void handle(genv::event ev);
 };
