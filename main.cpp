@@ -6,16 +6,10 @@
 using namespace std;
 using namespace genv;
 
-void event_loop(vector<Widget*>& widgets)
-{
-
-
-}
-
 int main()
 {
-
-
+    Field palya();
+    palya.event_loop();
 
    // event_loop(w);
     return 0;

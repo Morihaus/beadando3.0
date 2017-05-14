@@ -4,15 +4,10 @@
 using namespace std;
 using namespace genv;
 
-Field ::Field(int xx,int yy)
-{
-    _xx=xx;
-    _yy=yy;
-}
-
 void Field ::beolvas()
 {
     ifstream befajl("fajl.txt");
+    befajl.open();
 
 
     for(int i=0; i<9; i++)
