@@ -7,9 +7,9 @@ using namespace genv;
 
 int main()
 {
-    Field palya();
+    Field palya;
     palya.event_loop();
 
-   // event_loop(w);
+
     return 0;
 }

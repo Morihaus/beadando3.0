@@ -4,13 +4,6 @@
 using namespace std;
 using namespace genv;
 
-Field::Field()
-{
-
-
-
-}
-
 void Field::beolvas()
 {
     ifstream befajl("fajl.txt");

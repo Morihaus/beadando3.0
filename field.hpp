@@ -8,7 +8,6 @@ using namespace std;
 class Field
 {
 public:
-    Field();
     vector<Widget*> w;
     void beolvas();
     void event_loop();
