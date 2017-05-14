@@ -4,7 +4,14 @@
 using namespace std;
 using namespace genv;
 
-void Field ::beolvas()
+Field::Field()
+{
+
+
+
+}
+
+void Field::beolvas()
 {
     ifstream befajl("fajl.txt");
     befajl.open();

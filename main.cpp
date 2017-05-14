@@ -1,6 +1,5 @@
 #include "graphics.hpp"
 #include "widgets.hpp"
-#include "examplecheckbox.hpp"
 #include "field.hpp"
 
 using namespace std;

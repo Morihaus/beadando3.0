@@ -7,14 +7,13 @@ using namespace std;
 
 class Field
 {
-protected:
-    vector<Widget*> w;
-
 public:
+    Field();
+    vector<Widget*> w;
     void beolvas();
     void event_loop();
-    void handle();
-    void vege();
+    //void handle();
+    //void vege();
 };
 
 
