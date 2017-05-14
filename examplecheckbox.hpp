@@ -13,6 +13,7 @@ public:
     ExampleCheckBox(int x, int y, int sx, int sy, char szam);
     virtual void draw() const;
     virtual void handle(genv::event ev);
+    void set_szam(int sz);
 };
 
 

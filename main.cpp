@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-    Field palya = new Field;
+    Field palya;
+    palya.beolvas();
     palya.event_loop();
 
 

@@ -46,3 +46,10 @@ void ExampleCheckBox::handle(event ev)
         }
     }
 }
+
+void ExampleCheckBox::set_szam(int sz)
+{
+    _szam=sz;
+}
+
+
