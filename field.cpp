@@ -4,7 +4,7 @@
 using namespace std;
 using namespace genv;
 
-Field ::Field(int xx,int yy, char szam)
+Field ::Field(int xx,int yy)
 {
     _xx=xx;
     _yy=yy;
