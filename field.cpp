@@ -1,12 +1,13 @@
 #include "field.hpp"
 #include "examplecheckbox.hpp"
+#include "fstream"
 
 using namespace std;
 using namespace genv;
 
 void Field::beolvas()
 {
-    ifstream befajl("fajl.txt");
+    /*ifstream befajl("fajl.txt");
     befajl.open();
 
 
@@ -35,12 +36,12 @@ void Field::beolvas()
                     w.push_back(ec);
                 }
             }
-    }
+    }*/
 }
 
 void Field::event_loop()
 {
-    gout.open(272,272);
+    /*gout.open(272,272);
     event ev;
     int focus = -1;
 
@@ -65,6 +66,6 @@ void Field::event_loop()
             widgets[focus]->handle(ev);
         }
         gout<<refresh;
-    }
+    }*/
 
 }

@@ -1,13 +1,10 @@
-#include "graphics.hpp"
-#include "widgets.hpp"
 #include "field.hpp"
 
 using namespace std;
-using namespace genv;
 
 int main()
 {
-    Field palya;
+    Field palya = new Field;
     palya.event_loop();
 
 
