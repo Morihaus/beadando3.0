@@ -1,7 +1,6 @@
 #ifndef EXAMPLECHECKBOX_HPP_INCLUDED
 #define EXAMPLECHECKBOX_HPP_INCLUDED
 
-#include "graphics.hpp"
 #include "widgets.hpp"
 #include "string"
 

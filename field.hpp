@@ -1,15 +1,16 @@
 #ifndef FIELD_HPP_INCLUDED
 #define FIELD_HPP_INCLUDED
 
-#include "widgets.hpp"
+class Widget;
 #include <vector>
 
 using namespace std;
 
 class Field
 {
-public:
+private:
     vector<Widget*> w;
+public:
     void beolvas();
     void event_loop();
     //void handle();
