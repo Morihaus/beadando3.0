@@ -9,7 +9,8 @@ using namespace std;
 class Widget
 {
 protected:
-    int _x, _y, _size_x, _size_y, _szam;
+    int _x, _y, _size_x, _size_y;
+    char _szam;
 public:
     Widget(int x, int y, int sx, int sy, char szam);
     virtual bool is_selected(int mouse_x, int mouse_y) const;

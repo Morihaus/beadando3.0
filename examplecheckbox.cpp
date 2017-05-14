@@ -5,8 +5,6 @@
 using namespace genv;
 using namespace std;
 
-const int XX=600;
-const int YY=300;
 
 ExampleCheckBox::ExampleCheckBox(int x, int y, int sx, int sy,char szam)
     : Widget(x,y,sx,sy,szam)
@@ -17,10 +15,10 @@ ExampleCheckBox::ExampleCheckBox(int x, int y, int sx, int sy,char szam)
 
 void ExampleCheckBox::draw() const
 {
-    gout << move_to(_x, _y) << color(255,255,255) << box(_size_x+2, _size_y);
-    gout << move_to(_x+2, _y+2) << color(0,0,0) << box(_size_x-2, _size_y-4);
-    gout << color(255,255,255);
-    gout << move_to(_x+20, _y+20) << text(_szam)<<refresh;
+    gout << move_to(_x, _y) << color(0,0,0) << box(_size_x+2, _size_y);
+    gout << move_to(_x+2, _y+2) << color(255,255,255) << box(_size_x-2, _size_y-2);
+    gout << color(0,0,255);
+    gout << move_to(_x+12, _y+20) << text(_szam);
 }
 
 void ExampleCheckBox::handle(event ev)
