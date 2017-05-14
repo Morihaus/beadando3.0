@@ -1,6 +1,7 @@
 #ifndef FIELD_HPP_INCLUDED
 #define FIELD_HPP_INCLUDED
 
+#include "widgets.hpp"
 #include <vector>
 
 using namespace std;
