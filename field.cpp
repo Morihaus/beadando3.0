@@ -1,5 +1,5 @@
 #include "field.hpp"
-#include "widgets.hpp"
+#include "examplecheckbox.hpp"
 
 using namespace std;
 using namespace genv;

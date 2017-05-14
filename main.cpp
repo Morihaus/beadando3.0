@@ -1,5 +1,6 @@
 #include "graphics.hpp"
 #include "widgets.hpp"
+#include "field.hpp"
 
 using namespace std;
 using namespace genv;
